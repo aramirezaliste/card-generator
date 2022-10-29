@@ -47,5 +47,7 @@ window.onload = function() {
     cambioColorPalo.classList.add("red");
     let cambioColorPaloDos = document.querySelector(".iconoDos");
     cambioColorPaloDos.classList.add("red");
+    let cambioColorNumeros = document.querySelector(".textoCentral");
+    cambioColorNumeros.classList.add("red");
   }
 };
