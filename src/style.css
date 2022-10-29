@@ -1,1 +1,51 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.cuerpoCarta {
+  box-sizing: border-box;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/007/190/729/original/abstract-psychedelic-retro-wave-background-free-vector.jpg);
+  width: 300px;
+  height: 500px;
+  border-radius: 30px;
+  margin-top: 40px;
+  display: flex;
+}
+
+.iconoUno,
+.textoCentral,
+.iconoDos {
+  box-sizing: border-box;
+  width: 33%;
+  height: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+}
+
+.iconoUno {
+  align-self: start;
+}
+
+.textoCentral {
+  align-self: center;
+}
+
+.textoCentral {
+  font-size: 100px;
+}
+.iconoDos {
+  align-self: end;
+}
+
+.black {
+  color: black;
+}
+
+.red {
+  color: red;
+}
