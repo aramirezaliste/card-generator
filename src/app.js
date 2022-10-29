@@ -27,8 +27,8 @@ window.onload = function() {
   ];
   let palos = ["♦", "♥", "♠", "♣"];
 
-  let randomNumeros = numeros[Math.floor(Math.random() * (numeros.length - 1))];
-  let randomPalos = palos[Math.floor(Math.random() * (palos.length - 1))];
+  let randomNumeros = numeros[Math.floor(Math.random() * numeros.length)];
+  let randomPalos = palos[Math.floor(Math.random() * palos.length)];
 
   //console.log(randomPalos + randomNumeros);
 

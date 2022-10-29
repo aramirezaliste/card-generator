@@ -19,8 +19,8 @@ body {
 .textoCentral,
 .iconoDos {
   box-sizing: border-box;
-  width: 33%;
-  height: 33%;
+  width: 33.3%;
+  height: 33.3%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,9 +35,6 @@ body {
   align-self: center;
 }
 
-.textoCentral {
-  font-size: 100px;
-}
 .iconoDos {
   align-self: end;
 }
